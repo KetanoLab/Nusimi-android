@@ -12,7 +12,6 @@ class SecundaryText(private val context: Context) : ViewSwitcher.ViewFactory {
         val t = TextView(context)
         t.gravity = Gravity.CENTER
         t.textSize = 15f
-        t.setTextColor(context.resources.getColor(R.color.black2))
         return t
     }
 }

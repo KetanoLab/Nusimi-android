@@ -23,7 +23,7 @@
         android:layout_gravity="center"
         android:text="@string/name"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="@color/black1" />
+        android:textColor="?android:textColorPrimary" />
 
 
     <TextView
@@ -33,7 +33,7 @@
         android:layout_gravity="center"
         android:text="@string/author"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="@color/black2" />
+        android:textColor="?android:textColorPrimary" />
 
 
     <TextView
@@ -44,6 +44,6 @@
         android:gravity="center"
         android:text="@string/description"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textColor="@color/black2" />
+        android:textColor="?android:textColorPrimary" />
 
 </LinearLayout>

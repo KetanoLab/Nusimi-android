@@ -11,15 +11,17 @@ import com.ketanolab.nusimi.adapters.DictionariesViewPagerAdapter
 import com.ketanolab.nusimi.util.Dictionaries
 import com.ketanolab.nusimi.viewpager.CirclePageIndicator
 
-class DiccionariesActivity : AppCompatActivity() {
+class DiccionariesActivity : BaseActivity() {
     // Paginado
     private var viewPager: ViewPager? = null
     private var indicator: CirclePageIndicator? = null
     private var adaptadorViewPager: DictionariesViewPagerAdapter? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setupLanguage()
         setContentView(R.layout.activity_dictionaries)
-
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar!!.title = getString(R.string.dictionaries)
         // Paginado
         viewPager = findViewById<View>(R.id.viewPager) as ViewPager
         adaptadorViewPager = DictionariesViewPagerAdapter(this)

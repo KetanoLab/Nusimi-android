@@ -1,0 +1,22 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="languages_entries">
+        <item>Aymar aru</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>Guarani</item>
+        <item>Português</item>
+        <item>Qhichwa simi</item>
+        <item>System default</item>
+    </string-array>
+
+    <string-array name="languages_values" translatable="false">
+        <item>ay</item>
+        <item>en</item>
+        <item>es</item>
+        <item>gn</item>
+        <item>pt</item>
+        <item>qu</item>
+        <item>sy</item>
+    </string-array>
+</resources>

@@ -13,7 +13,7 @@ import com.ketanolab.nusimi.anim.ImageLogo
 import com.ketanolab.nusimi.anim.PrincipalText
 import com.ketanolab.nusimi.anim.SecundaryText
 
-class CreditsActivity : AppCompatActivity() {
+class CreditsActivity : BaseActivity() {
      lateinit var imageSwitcher1: ImageSwitcher
      lateinit var textSwicher1: TextSwitcher
      lateinit var textSwicher2: TextSwitcher
@@ -41,8 +41,10 @@ class CreditsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
 
         super.onCreate(savedInstanceState)
+        setupLanguage()
         setContentView(R.layout.activity_credits)
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
+        supportActionBar!!.title = getString(R.string.credits)
         imageSwitcher1 = findViewById(R.id.imageSwitcher1)
         imageSwitcher1.setFactory(ImageLogo(this))
         textSwicher1 = findViewById(R.id.textSwitcher1)

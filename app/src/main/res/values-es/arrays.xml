@@ -1,0 +1,12 @@
+<resources>
+
+    <string-array name="languages_entries">
+        <item>Aymar aru</item>
+        <item>English</item>
+        <item>Español</item>
+        <item>Guarani</item>
+        <item>Português</item>
+        <item>Qhichwa simi</item>
+        <item>predeterminado del sistema</item>
+    </string-array>
+</resources>

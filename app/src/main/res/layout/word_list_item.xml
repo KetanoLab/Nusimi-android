@@ -13,7 +13,7 @@
         android:layout_marginTop="@dimen/margin"
         android:text="@string/word"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="@color/black1" />
+        android:textColor="?android:textColorPrimary" />
 
     <TextView
         android:id="@+id/meaning_item"
@@ -26,6 +26,6 @@
         android:singleLine="true"
         android:text="@string/meaning"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:textColor="@color/black2" />
+        />
 
 </LinearLayout>

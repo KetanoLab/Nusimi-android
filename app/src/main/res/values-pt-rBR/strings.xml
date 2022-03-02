@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nusimi</string>
+    <string name="app_full_name">Nusimi 1.0.1</string>
+    <string name="ketanolab">Ketanolab</string>
+    <string name="illa_a">ILLA</string>
+    <!--  Titles  -->
+    <string name="favorites">Favoritos</string>
+    <string name="dictionaries">Dicionários</string>
+    <string name="credits">Créditos</string>
+    <string name="downloads">Downloads</string>
+    <string name="information">Informação</string>
+    <!--  MainActivity  -->
+    <string name="insert_word">Digite uma palavra</string>
+    <string name="download_dictionaries">¿Baixa dicionários?</string>
+    <string name="you_dont_have_dictionaries">Não tem dicionários instalados em seu dispositivo.</string>
+    <string name="sd_required">Tarjeta SD requerido</string>
+    <string name="you_dont_have_sd">Não tem uma memoria externa SD instalada. NuSimi isso requer para guardar os dicionários.</string>
+    <!--  DownloadsActivity  -->
+    <string name="download_failed">Download falida, intente de novo.</string>
+    <string name="downloaded">Baixado</string>
+    <string name="is_downloaded_or_downloading">Este download já foi selecionado.</string>
+    <string name="downloading">Baixando…</string>
+    <string name="load_completed">Carga completada</string>
+    <string name="no_internet">sem conexão a internet</string>
+    <string name="you_dont_have_conection">Não tem uma conexão a internet, que é necessário para baixar dicionários.</string>
+    <string name="update">Atualizar</string>
+    <string name="loading">Carregando…</string>
+    <string name="word">Palavra</string>
+    <string name="meaning">Significado</string>
+    <string name="name">Nome</string>
+    <string name="author">Autor</string>
+    <string name="description">Descrição</string>
+    <string name="size">Tamanho</string>
+    <string name="try_again">Download falido, tente de novo.</string>
+    <string name="no_downloads">Não há novos dicionários para baixar. Tente mais tarde.</string>
+    <!--  FavoritesActivity  -->
+    <string name="by">por</string>
+    <!--  WordActivity  -->
+    <string name="favorite">Favoritas</string>
+    <string name="favorite_now">Esta palavra es favorita agora.</string>
+    <string name="no_favorite_now">Esta palavra já no es favorita.</string>
+    <!--  AboutActivity  -->
+    <string name="present">Presentam…</string>
+    <string name="licence">Sob licença GPL 3.0 ou depois</string>
+    <string name="authors">Baseado nos dicionários de</string>
+    <string name="developer">Desenvolvedor</string>
+    <string name="linguist">Linguista</string>
+    <string name="coordinator_and_graphics">Coordenadora e gráfica</string>
+    <string name="producers">Produtores</string>
+    <string name="special_thanks">Agradecimentos especiais</string>
+    <string name="no_favorites">Você ainda não tem favoritas. (Pressione a estrela nas palavras para inseri-las.)</string>
+    <string name="open_memu_drawer_description_for_accesibility">Menú aberto</string>
+    <string name="close_memu_drawer_description_for_accesibility">Menú fechado</string>
+    <string name="settings">Configuração</string>
+    <!--  Preference Titles  -->
+    <string name="messages_header">Idioma</string>
+    <string name="select_language">Selecionar o idioma</string>
+    <string name="cancel">Cancelar</string>
+</resources>

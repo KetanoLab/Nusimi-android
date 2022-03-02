@@ -1,7 +1,6 @@
 package com.ketanolab.nusimi.adapters
 
 import android.content.Context
-import android.os.Build
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -41,11 +40,8 @@ class WordsAdapter(context: Context?) : BaseAdapter() {
             holder.subtitulo = convertView
                 .findViewById<View>(R.id.subtitulo_item) as TextView
             convertView.tag = holder
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB_MR1) {
-                holder.titulo!!.setTextIsSelectable(true)
-                holder.subtitulo!!.setTextIsSelectable(true)
-            } else {
-            }
+            holder.titulo!!.setTextIsSelectable(true)
+            holder.subtitulo!!.setTextIsSelectable(true)
         } else {
             holder = convertView.tag as ViewHolder
         }

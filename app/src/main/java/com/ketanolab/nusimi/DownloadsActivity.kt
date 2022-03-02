@@ -31,7 +31,7 @@ import java.net.URL
 import java.util.ArrayList
 import java.util.BitSet
 
-class DownloadsActivity : AppCompatActivity(), OnItemClickListener {
+class DownloadsActivity : BaseActivity(), OnItemClickListener {
     // dictionaries
     private var dictionaries: ArrayList<Dictionary>? = null
 
@@ -50,8 +50,10 @@ class DownloadsActivity : AppCompatActivity(), OnItemClickListener {
     private lateinit var wl: WakeLock
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setupLanguage()
         setContentView(R.layout.activity_downloads)
         supportActionBar!!.setDisplayHomeAsUpEnabled(true) // show home icon
+        supportActionBar!!.title = getString(R.string.downloads)
         dictionariesDirPath = applicationContext.getExternalFilesDir(null)!!.absolutePath
         // Loading
         layoutCargando = findViewById<View>(R.id.layoutCargando) as RelativeLayout
@@ -119,6 +121,7 @@ class DownloadsActivity : AppCompatActivity(), OnItemClickListener {
                             description = jsonObject.getString("description"),
                             file = jsonObject.getString("file"),
                             url = jsonObject.getString("url"),
+                            version = jsonObject.getString("version"),
                             size = jsonObject.getString("size")
                         )
                         publishProgress(dictionary)

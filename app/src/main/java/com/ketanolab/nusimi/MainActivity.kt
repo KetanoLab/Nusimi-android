@@ -20,13 +20,12 @@ import android.widget.ListView
 import android.widget.SimpleCursorAdapter
 import android.widget.TextView
 import androidx.appcompat.app.ActionBar
-import androidx.appcompat.app.AppCompatActivity
 import com.ketanolab.nusimi.util.Constants
 import com.ketanolab.nusimi.util.Dictionaries
 import com.ketanolab.nusimi.util.Util
 import java.util.ArrayList
 
-class MainActivity : AppCompatActivity(), OnItemClickListener, ActionBar.OnNavigationListener {
+class MainActivity : BaseActivity(), OnItemClickListener, ActionBar.OnNavigationListener {
     // Paths dictionaries
     private lateinit var pathsDictionaries: ArrayList<String>
 
@@ -43,10 +42,10 @@ class MainActivity : AppCompatActivity(), OnItemClickListener, ActionBar.OnNavig
     private lateinit var askBox: EditText
     var mRegisterTask: AsyncTask<Void, Void, Void>? = null
 
-    // END NOTIFICACION PUSH
     public override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         Log.i(Constants.DEBUG, "onCreate()")
+        setupLanguage()
         setContentView(R.layout.activity_main)
         val context = supportActionBar!!.themedContext
         listNavigationAdapter = ArrayAdapter(
@@ -121,21 +120,23 @@ class MainActivity : AppCompatActivity(), OnItemClickListener, ActionBar.OnNavig
             R.layout.word_list_item, cursor, columns, to, 0
         )
         WordsSimpleCursorAdapter!!.filterQueryProvider = FilterQueryProvider { constraint ->
-            val word = "%$constraint%"
+            val word = "$constraint"
             var cursor: Cursor? = null
             cursor = if (pathsDictionaries!![itemSelectedNavigation]
                     .contains("gn")
             ) {
                 db!!
                     .rawQuery(
-                        "SELECT _id, word, summary FROM words WHERE replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(word,'�','a'),'�','e'),'�','i'),'�','o'),'�','u'),'(',''),')',''),'�','n'),'�','i'),'�','a'),'�','e'),'�','o'),'�','u') LIKE ?",
-                        arrayOf(word)
+                        "SELECT _id, word, summary FROM words WHERE replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(word,'�','a'),'�','e'),'�','i'),'�','o'),'�','u'),'(',''),')',''),'�','n'),'�','i'),'�','a'),'�','e'),'�','o'),'�','u') " +
+                                "LIKE '%$word%'  ORDER BY case when word like '$word%' then 0 else 1 end,  word",
+                        arrayOf(word, word)
                     )
             } else {
                 db!!
                     .rawQuery(
-                        "SELECT _id, word, summary FROM words WHERE replace(replace(replace(replace(replace(replace(replace(word,'�','a'),'�','e'),'�','i'),'�','o'),'�','u'),'�','n'),'�','a') LIKE ?",
-                        arrayOf(word)
+                        "SELECT _id, word, summary FROM words WHERE replace(replace(replace(replace(replace(replace(replace(word,'�','a'),'�','e'),'�','i'),'�','o'),'�','u'),'�','n'),'�','a') " +
+                                "LIKE '%$word%'  ORDER BY case when word like '$word%' then 0 else 1 end,  word",
+                        null
                     )
             }
             cursor
@@ -195,6 +196,10 @@ class MainActivity : AppCompatActivity(), OnItemClickListener, ActionBar.OnNavig
                 val intentCreditos = Intent(this, CreditsActivity::class.java)
                 startActivity(intentCreditos)
             }
+            R.id.menu_settings -> {
+                val intentCreditos = Intent(this, SettingsActivity::class.java)
+                startActivity(intentCreditos)
+            }
             R.id.menu_dictionaries -> {
                 val intentDiccionarios = Intent(
                     this,
@@ -222,10 +227,10 @@ class MainActivity : AppCompatActivity(), OnItemClickListener, ActionBar.OnNavig
 
     override fun onStop() {
         super.onStop()
-        Log.i(Constants.DEBUG, "onStop()")
         if (WordsSimpleCursorAdapter != null) {
             WordsSimpleCursorAdapter!!.cursor.close()
             WordsSimpleCursorAdapter = null
+            wordsListView!!.adapter = WordsSimpleCursorAdapter
         }
         if (db != null) {
             db!!.close()

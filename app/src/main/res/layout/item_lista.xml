@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:clickable="false"
     android:layout_height="fill_parent" >
 
     <ImageView
@@ -11,7 +13,7 @@
         android:layout_alignParentTop="true"
         android:layout_margin="@dimen/margin"
         android:contentDescription="@string/favorite"
-        android:src="@drawable/ic_menu_star" />
+        android:src="@android:drawable/btn_star" />
 
 
     <TextView
@@ -24,7 +26,7 @@
         android:layout_toRightOf="@+id/imagen_item"
         android:text="@string/app_name"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="@color/black1" />
+        android:textColor="?android:textColorPrimary"/>
 
 
     <TextView

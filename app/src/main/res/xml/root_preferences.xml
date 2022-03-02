@@ -1,0 +1,16 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/messages_header">
+
+        <ListPreference
+            app:defaultValue="sy"
+            app:entries="@array/languages_entries"
+            app:entryValues="@array/languages_values"
+            app:key="language"
+            app:title="@string/select_language"
+            app:negativeButtonText="@string/cancel"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

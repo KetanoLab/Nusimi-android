@@ -6,4 +6,5 @@ data class Dictionary(
  val description: String,
  val file: String,
  val url: String,
+ val version: String,
  val size: String)

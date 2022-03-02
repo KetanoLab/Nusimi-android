@@ -15,7 +15,7 @@ import com.ketanolab.nusimi.db.FavoritosDbAdapter
 import com.ketanolab.nusimi.util.Constants
 import com.ketanolab.nusimi.util.Util
 
-class WordActivity : AppCompatActivity() {
+class WordActivity : BaseActivity() {
     private var textoPalabra: TextView? = null
     private var textoSignificado: TextView? = null
     private var textoDiccionario: TextView? = null
@@ -23,7 +23,10 @@ class WordActivity : AppCompatActivity() {
     private var path: String? = ""
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setupLanguage()
         setContentView(R.layout.activity_word)
+        supportActionBar!!.title = getString(R.string.meaning)
+
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
         // GUI
         textoPalabra = findViewById<View>(R.id.textoPalabra) as TextView

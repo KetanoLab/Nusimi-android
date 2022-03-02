@@ -12,7 +12,6 @@ class PrincipalText(private val context: Context) : ViewSwitcher.ViewFactory {
         val t = TextView(context)
         t.gravity = Gravity.CENTER
         t.textSize = 20f
-        t.setTextColor(context.resources.getColor(R.color.black1))
         return t
     }
 }

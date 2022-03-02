@@ -1,6 +1,9 @@
 package com.ketanolab.nusimi.util
 
 import android.content.Context
+import android.content.res.Configuration
+import android.content.res.Resources
+import android.os.Build
 import android.preference.PreferenceManager
 import java.util.Locale
 
@@ -23,5 +26,12 @@ object ResourcesUtil {
         val conf = res.configuration
         conf.locale = Locale(languageCode!!.toLowerCase())
         res.updateConfiguration(conf, dm)
+    }
+
+    fun setAppLanguage(lang: String, config: Configuration): Configuration {
+        val locale = Locale(lang)
+        Locale.setDefault(locale)
+        config.setLocale(locale)
+        return config
     }
 }

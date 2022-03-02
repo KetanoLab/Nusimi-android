@@ -19,7 +19,6 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="@color/blanco1"
         android:cacheColorHint="#00000000"
         android:divider="@drawable/divider"
         android:dividerHeight="1dp" />

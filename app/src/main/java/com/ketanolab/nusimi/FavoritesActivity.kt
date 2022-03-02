@@ -17,14 +17,16 @@ import com.ketanolab.nusimi.util.Constants
 import com.ketanolab.nusimi.util.Util
 import java.util.ArrayList
 
-class FavoritesActivity : AppCompatActivity(), OnItemClickListener {
+class FavoritesActivity : BaseActivity(), OnItemClickListener {
     private var lista: ListView? = null
     private var adaptadorLista: WordsAdapter? = null
     private var paths: ArrayList<String>? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setupLanguage()
         setContentView(R.layout.activity_favorites)
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
+        supportActionBar!!.title = getString(R.string.favorites)
         lista = findViewById<View>(R.id.listaFavoritos) as ListView
         adaptadorLista = WordsAdapter(this)
         lista!!.adapter = adaptadorLista
@@ -62,7 +64,7 @@ class FavoritesActivity : AppCompatActivity(), OnItemClickListener {
                 dbWords.close()
                 // ****
                 adaptadorLista!!.addItem(
-                    R.drawable.ic_menu_star, word, """
+                    android.R.drawable.btn_star, word, """
      $name
      $author
      """.trimIndent()
