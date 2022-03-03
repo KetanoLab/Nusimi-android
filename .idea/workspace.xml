@@ -31,80 +31,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35333e22-11d1-4e9c-ac97-8b8565568dc2" name="Default" comment="updated readme">
-      <change afterPath="$PROJECT_DIR$/app/src/main/ic_launcher-playstore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/BaseActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/SettingsActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/logo_ketanolab.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/logo_ketanolab_mini.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/settings_activity.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-ay/arrays.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-es/arrays.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-pt-rBR/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-qu/arrays.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/root_preferences.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/simidic-code.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/simidic-code.app.iml" afterDir="false" />
+    <list default="true" id="35333e22-11d1-4e9c-ac97-8b8565568dc2" name="Default" comment="updated code for version 1.0.0">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/CreditsActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/CreditsActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/DiccionariesActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/DiccionariesActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/DownloadsActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/DownloadsActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/FavoritesActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/FavoritesActivity.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/WordActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/WordActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/adapters/WordsAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/adapters/WordsAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/anim/PrincipalText1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/anim/PrincipalText1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/anim/SecundaryText1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/anim/SecundaryText1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/models/Dictionary.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/models/Dictionary.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/util/ResourcesUtil1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/util/ResourcesUtil1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/img_dictionary.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/img_dictionary.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/img_dictionary.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/img_dictionary.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/img_dictionary.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/img_dictionary.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/ic_launcher.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/img_dictionary.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/img_dictionary.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/divider.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/divider.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/logo_ketanolab.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/logo_ketanolab_mini.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_credits.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_credits.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_dictionaries.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_dictionaries.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_favorites.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_favorites.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dictionary_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dictionary_view.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_lista.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_lista.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/word_list_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/word_list_item.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-ay/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-ay/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-es/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-es/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-gn/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-gn/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-qu/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-qu/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-v11/abs__themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-v14/abs__styles.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-v14/abs__themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../SimiDic-Builder/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../../SimiDic-Builder/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/adapters/DictionariesViewPagerAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/adapters/DictionariesViewPagerAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/util/Dictionaries.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/util/Dictionaries.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +45,7 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@19241FDF600HCC]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@93df7e0]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -160,6 +91,12 @@
       </list>
     </option>
   </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="EXPORT_PRIVATE_KEY" value="false" />
+    <option name="KEY_STORE_PATH" value="$USER_HOME$/Desktop/key.jks" />
+    <option name="KEY_ALIAS" value="ketanoAlias" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
@@ -172,11 +109,14 @@
   <component name="PropertiesComponent">
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_23" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.56.101:5555" />
+    <property name="BundleExportedModule" value="simidic-code.app" />
     <property name="DEBUGGABLE_DEVICE" value="google-pixel_6-19241FDF600HCC" />
     <property name="DEBUGGABLE_PROCESS" value="com.ketanolab.nusimi" />
     <property name="DEBUGGER_ID" value="Auto" />
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="SerialNumber@19241FDF600HCC" />
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2022-01-27T11:05:50.993627Z" />
+    <property name="ExportApk.ApkPath" value="$USER_HOME$/Desktop" />
+    <property name="ExportApk.BuildVariants" value="release" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -186,12 +126,12 @@
     <property name="android-custom-view/home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/java/com/ketanolab/simidic/viewpager/CirclePageIndicator.java_SELECTED" value="CirclePageIndicator" />
     <property name="android-custom-view/home/pedrogezn/Documents/ketanolab/SimiDic/SimiDic-Android/simidic-code/app/src/main/java/com/ketanolab/simidic/viewpager/CirclePageIndicator.kt_SELECTED" value="CirclePageIndicator" />
     <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/values-ay" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="android.template.-1642748619">
@@ -519,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644635066826</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="updated code for version 1.0.0">
+      <created>1646230856242</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1646230856242</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -541,7 +488,8 @@
     <MESSAGE value="refactored package id to com.ketanolab.nusimi" />
     <MESSAGE value="fixed downloaded dictionaries not shown" />
     <MESSAGE value="updated readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated readme" />
+    <MESSAGE value="updated code for version 1.0.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated code for version 1.0.0" />
   </component>
   <component name="WindowStateProjectService">
     <state x="480" y="288" width="950" height="537" key="#PSD" timestamp="1644606300986">
@@ -554,76 +502,83 @@
     </state>
     <state x="748" y="272" width="413" height="569" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1643679297220" />
     <state x="1094" y="272" key="#com.intellij.ide.util.MemberChooser/0.27.3840.1053@0.27.3840.1053" timestamp="1645196756774" />
-    <state x="134" y="162" width="484" height="832" key="#xdebugger.evaluate" timestamp="1646097377483">
+    <state x="134" y="162" width="484" height="832" key="#xdebugger.evaluate" timestamp="1646247450167">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="134" y="162" width="484" height="832" key="#xdebugger.evaluate/0.27.1920.1053@0.27.1920.1053" timestamp="1646097377483" />
-    <state x="737" y="302" width="445" height="510" key="AndroidProcessChooserDialog" timestamp="1646165986055">
+    <state x="134" y="162" width="484" height="832" key="#xdebugger.evaluate/0.27.1920.1053@0.27.1920.1053" timestamp="1646247450167" />
+    <state x="737" y="302" width="445" height="510" key="AndroidProcessChooserDialog" timestamp="1646247541976">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="737" y="302" width="445" height="510" key="AndroidProcessChooserDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1646165986055" />
+    <state x="737" y="302" width="445" height="510" key="AndroidProcessChooserDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1646247541976" />
     <state width="466" height="485" key="DebuggerActiveHint" timestamp="1644611240086">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="466" height="485" key="DebuggerActiveHint/0.27.1920.1053@0.27.1920.1053" timestamp="1644611240086" />
-    <state x="743" y="300" width="424" height="491" key="FileChooserDialogImpl" timestamp="1645959476388">
-      <screen x="0" y="27" width="1920" height="1053" />
+    <state x="1072" y="300" width="424" height="491" key="FileChooserDialogImpl" timestamp="1646231613488">
+      <screen x="0" y="27" width="3840" height="1053" />
     </state>
     <state x="743" y="300" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1645959476388" />
+    <state x="1072" y="300" width="424" height="491" key="FileChooserDialogImpl/0.27.3840.1053@0.27.3840.1053" timestamp="1646231613488" />
     <state x="743" y="300" width="424" height="519" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643251338314" />
-    <state width="1878" height="277" key="GridCell.Tab.0.bottom" timestamp="1646165988178">
+    <state width="1878" height="277" key="GridCell.Tab.0.bottom" timestamp="1646247542212">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1878" height="277" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1646165988178" />
+    <state width="1878" height="277" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1646247542212" />
     <state width="1878" height="240" key="GridCell.Tab.0.bottom/0.27.3840.1053@0.27.3840.1053" timestamp="1643655546074" />
     <state width="1878" height="277" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643312074479" />
-    <state width="1878" height="277" key="GridCell.Tab.0.center" timestamp="1646165988177">
+    <state width="1878" height="277" key="GridCell.Tab.0.center" timestamp="1646247542212">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1878" height="277" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1646165988177" />
+    <state width="1878" height="277" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1646247542212" />
     <state width="1878" height="240" key="GridCell.Tab.0.center/0.27.3840.1053@0.27.3840.1053" timestamp="1643655546073" />
     <state width="1878" height="277" key="GridCell.Tab.0.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643312074479" />
-    <state width="1878" height="277" key="GridCell.Tab.0.left" timestamp="1646165988177">
+    <state width="1878" height="277" key="GridCell.Tab.0.left" timestamp="1646247542211">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1878" height="277" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1646165988177" />
+    <state width="1878" height="277" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1646247542211" />
     <state width="1878" height="240" key="GridCell.Tab.0.left/0.27.3840.1053@0.27.3840.1053" timestamp="1643655546071" />
     <state width="1878" height="277" key="GridCell.Tab.0.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643312074479" />
-    <state width="1878" height="277" key="GridCell.Tab.0.right" timestamp="1646165988178">
+    <state width="1878" height="277" key="GridCell.Tab.0.right" timestamp="1646247542212">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1878" height="277" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1646165988178" />
+    <state width="1878" height="277" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1646247542212" />
     <state width="1878" height="240" key="GridCell.Tab.0.right/0.27.3840.1053@0.27.3840.1053" timestamp="1643655546074" />
     <state width="1878" height="277" key="GridCell.Tab.0.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643312074479" />
-    <state width="1878" height="277" key="GridCell.Tab.1.bottom" timestamp="1646165990292">
+    <state width="1878" height="277" key="GridCell.Tab.1.bottom" timestamp="1646247543818">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1878" height="277" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1646165990292" />
+    <state width="1878" height="277" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1646247543818" />
     <state width="1878" height="277" key="GridCell.Tab.1.bottom/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643312074480" />
-    <state width="1878" height="277" key="GridCell.Tab.1.center" timestamp="1646165990291">
+    <state width="1878" height="277" key="GridCell.Tab.1.center" timestamp="1646247543816">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1878" height="277" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1646165990291" />
+    <state width="1878" height="277" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1646247543816" />
     <state width="1878" height="277" key="GridCell.Tab.1.center/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643312074479" />
-    <state width="1878" height="277" key="GridCell.Tab.1.left" timestamp="1646165990290">
+    <state width="1878" height="277" key="GridCell.Tab.1.left" timestamp="1646247543814">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1878" height="277" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1646165990290" />
+    <state width="1878" height="277" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1646247543814" />
     <state width="1878" height="277" key="GridCell.Tab.1.left/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643312074479" />
-    <state width="1878" height="277" key="GridCell.Tab.1.right" timestamp="1646165990291">
+    <state width="1878" height="277" key="GridCell.Tab.1.right" timestamp="1646247543817">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1878" height="277" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1646165990291" />
+    <state width="1878" height="277" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1646247543817" />
     <state width="1878" height="277" key="GridCell.Tab.1.right/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643312074480" />
-    <state x="464" y="188" width="992" height="737" key="SettingsEditor" timestamp="1643250923775">
+    <state x="464" y="188" width="992" height="737" key="SettingsEditor" timestamp="1646242633593">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state x="464" y="188" width="992" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1646242633593" />
     <state x="464" y="188" width="992" height="737" key="SettingsEditor/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643250923775" />
-    <state x="555" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1644635070184">
+    <state x="555" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1646266693031">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1644635070184" />
+    <state x="555" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1646266693031" />
+    <state x="320" y="276" key="Vcs.Push.Dialog.v2/0.27.3840.1053@0.27.3840.1053" timestamp="1646230861052" />
     <state x="555" y="276" width="800" height="535" key="Vcs.Push.Dialog.v2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643291319796" />
+    <state width="960" height="526" key="XDebugger.FullValuePopup" timestamp="1646247321297">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="960" height="526" key="XDebugger.FullValuePopup/0.27.1920.1053@0.27.1920.1053" timestamp="1646247321297" />
     <state x="742" y="245" width="426" height="623" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1644260469850">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -633,10 +588,10 @@
     </state>
     <state x="1156" y="456" width="392" height="175" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.3840.1053@0.27.3840.1053" timestamp="1645194860735" />
     <state x="764" y="456" width="382" height="175" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1643813746902" />
-    <state x="519" y="276" width="872" height="562" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1646166170730">
+    <state x="519" y="276" width="872" height="562" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1646246165920">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="519" y="276" width="872" height="562" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.27.1920.1053@0.27.1920.1053" timestamp="1646166170730" />
+    <state x="519" y="276" width="872" height="562" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.27.1920.1053@0.27.1920.1053" timestamp="1646246165920" />
     <state x="624" y="252" width="672" height="677" key="run.anything.popup" timestamp="1646130822552">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -730,18 +685,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/MainActivity.kt</url>
-          <line>142</line>
+          <line>127</line>
           <option name="timeStamp" value="86" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/MainActivity.kt</url>
-          <line>124</line>
-          <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/DownloadsActivity.kt</url>
           <line>114</line>
           <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/MainActivity.kt</url>
+          <line>125</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/ketanolab/nusimi/MainActivity.kt</url>
+          <line>126</line>
+          <option name="timeStamp" value="90" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -755,20 +715,6 @@
         <watch expression="file.isRooted" language="kotlin" />
         <watch expression="file.exists()" language="kotlin" />
         <watch expression="directory.parentFile.listFiles()" language="kotlin" />
-      </configuration>
-      <configuration name="Remote">
-        <watch expression="Util.isDownloaded(directoryPath + &quot;/&quot; + values[3])" language="kotlin" />
-        <watch expression="(files[i].name == directory.name)" language="kotlin" />
-        <watch expression="directoryPath" language="kotlin" />
-        <watch expression="files[i].name" language="kotlin" />
-        <watch expression="directory.name" language="kotlin" />
-        <watch expression="path == file" language="kotlin" />
-        <watch expression="file.equals(path)" language="kotlin" />
-        <watch expression="es" language="kotlin" />
-        <watch expression="ex" language="kotlin" />
-        <watch expression="db.raw" language="kotlin" />
-        <watch expression="db!!                     .rawQuery(                         &quot;SELECT _id, word, summary FROM words WHERE replace(replace(replace(replace(replace(replace(replace(word,'�','a'),'�','e'),'�','i'),'�','o'),'�','u'),'�','n'),'�','a') &quot; +                                 &quot;LIKE ? &quot; +                                 &quot;  ORDER BY &quot; +                                 &quot;case when WORD like '&quot;+ word +&quot;%' then 0 else 1 end, &quot; +                                 &quot; word&quot;,                         arrayOf(word)                     )" language="kotlin" />
-        <watch expression="word" language="kotlin" />
       </configuration>
     </watches-manager>
   </component>

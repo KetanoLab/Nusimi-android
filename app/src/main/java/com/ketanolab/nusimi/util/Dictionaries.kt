@@ -47,4 +47,43 @@ object Dictionaries {
         }
         return paths
     }
+
+    fun createDictQuery(query: String, characters: HashMap<String,String>): String {
+
+        var columnName = "word"
+        var searchString = "\"%$query%\""
+        var orderString = "\"$query%\""
+        for ((key, value) in characters) {
+            columnName = "replace($columnName,\"$key\",\"$value\")"
+            searchString = "replace($searchString,\"$key\",\"$value\")"
+        }
+        return "SELECT _id, word, summary FROM words WHERE $columnName LIKE $searchString  ORDER BY case when word like $orderString then 0 else 1 end,  word"
+    }
+
+    fun getDefaultReplacementCharactersForSearchs(): HashMap<String, String> {
+        var hashmap = HashMap<String, String> ()
+        hashmap.put("á","a")
+        hashmap.put("é","e")
+        hashmap.put("í","i")
+        hashmap.put("ó","o")
+        hashmap.put("ú","u")
+        hashmap.put("ü","u")
+        hashmap.put("ñ","n")
+        hashmap.put("ï","i")
+        hashmap.put("ɨ","i")
+        hashmap.put("ɨ̈̈","i")
+        hashmap.put("ë","e")
+        hashmap.put("ɨ̈","i")
+        hashmap.put("ö","o")
+        hashmap.put("ã","a")
+        hashmap.put("ẽ","")
+        hashmap.put("ĩ","i")
+        hashmap.put("ỹ","i")
+        hashmap.put("õ","o")
+        hashmap.put("ũ","u")
+        hashmap.put("ĝ","")
+        hashmap.put("g̃","g")
+        hashmap.put("'","")
+        return hashmap
+    }
 }

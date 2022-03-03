@@ -20,7 +20,7 @@ class DictionariesViewPagerAdapter(private val contexto: Context) : PagerAdapter
     fun adicionarItem(bitmap: Int, titulo: String, subtitulo: String, extra: String) {
         listaTitulos.add(titulo)
         listaSubtitulos.add(subtitulo)
-        listaExtras.add(Html.fromHtml("$extra<br /><br /><a href=\"http://creativecommons.org/licenses/by-nc-nd/3.0/deed.es\">Creative Commons-Atribución-NoComercial-SinDerivadas 3.0 Unported</a>"))
+        listaExtras.add(extra)
         listaBitmaps.add(bitmap)
     }
 

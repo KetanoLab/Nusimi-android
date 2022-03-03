@@ -122,26 +122,12 @@ class MainActivity : BaseActivity(), OnItemClickListener, ActionBar.OnNavigation
         WordsSimpleCursorAdapter!!.filterQueryProvider = FilterQueryProvider { constraint ->
             val word = "$constraint"
             var cursor: Cursor? = null
-            cursor = if (pathsDictionaries!![itemSelectedNavigation]
-                    .contains("gn")
-            ) {
-                db!!
-                    .rawQuery(
-                        "SELECT _id, word, summary FROM words WHERE replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(word,'�','a'),'�','e'),'�','i'),'�','o'),'�','u'),'(',''),')',''),'�','n'),'�','i'),'�','a'),'�','e'),'�','o'),'�','u') " +
-                                "LIKE '%$word%'  ORDER BY case when word like '$word%' then 0 else 1 end,  word",
-                        arrayOf(word, word)
-                    )
-            } else {
-                db!!
-                    .rawQuery(
-                        "SELECT _id, word, summary FROM words WHERE replace(replace(replace(replace(replace(replace(replace(word,'�','a'),'�','e'),'�','i'),'�','o'),'�','u'),'�','n'),'�','a') " +
-                                "LIKE '%$word%'  ORDER BY case when word like '$word%' then 0 else 1 end,  word",
-                        null
-                    )
-            }
+            var query = Dictionaries.createDictQuery(word, Dictionaries.getDefaultReplacementCharactersForSearchs())
+            cursor = db!!.rawQuery(query,null)
             cursor
         }
         wordsListView!!.adapter = WordsSimpleCursorAdapter
+
     }
 
     private fun putDataDictionariesInNavigation() {
