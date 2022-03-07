@@ -58,4 +58,6 @@
     <!-- Preference Titles -->
     <string name="messages_header">Language</string>
     <string name="select_language">Select Language</string>
+    <string name="corrupted_dictionary">the dictionary file %1$S is corrupted, please download it again.</string>
+
 </resources>

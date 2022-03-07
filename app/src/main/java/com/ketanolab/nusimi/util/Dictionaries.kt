@@ -2,7 +2,10 @@ package com.ketanolab.nusimi.util
 
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
+import android.database.sqlite.SQLiteDatabaseCorruptException
 import android.util.Log
+import android.widget.Toast
+import com.ketanolab.nusimi.R
 import java.util.ArrayList
 import java.util.Arrays
 
@@ -19,18 +22,21 @@ object Dictionaries {
                         if (Util.checkFilenameDictionary(files[i].name)) {
                             val path = files[i].absolutePath
                             // Last question
-                            val db = SQLiteDatabase.openOrCreateDatabase(path, null)
                             try {
+                                val db = SQLiteDatabase.openOrCreateDatabase(path, null)
                                 Util.getNameAndAuthorDictionary(db) // test consistent file
                                 Log.i(Constants.DEBUG, "Find " + files[i].name)
                                 paths.add(path)
+                                db?.close()
+                            } catch (ex: SQLiteDatabaseCorruptException) {
+                                files[i].delete()
+                              Toast.makeText(context, context.getString(R.string.corrupted_dictionary, files[i].name), Toast.LENGTH_LONG).show()
                             } catch (ex: Exception) {
                                 Log.i(
                                     Constants.DEBUG,
                                     "El archivo isFavorite dañado " + files[i].name
                                 )
                             }
-                            db?.close()
                         }
                     }
                 } else {

@@ -57,4 +57,5 @@
     <string name="messages_header">Simi</string>
     <string name="select_language">Simita aqllay</string>
     <string name="cancel">Mana ñiy</string>
+    <string name="corrupted_dictionary">%1$S simi-pirwa archiwuqa wakllisqa. Watiqmanta uraqallay.</string>
 </resources>

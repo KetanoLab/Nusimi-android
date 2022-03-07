@@ -50,4 +50,5 @@
     <string name="messages_header">ñee</string>
     <string name="select_language">seleecciona el idioma</string>
     <string name="cancel">Cancelar</string>
+    <string name="corrupted_dictionary">el diccionario %1$S fue descargado con errores, por favor descarguelo de nuevo.</string>
 </resources>

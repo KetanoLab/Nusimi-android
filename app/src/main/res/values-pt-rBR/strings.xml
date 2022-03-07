@@ -57,4 +57,5 @@
     <string name="messages_header">Idioma</string>
     <string name="select_language">Selecionar o idioma</string>
     <string name="cancel">Cancelar</string>
+    <string name="corrupted_dictionary">O arquivo de dicionário %1$S está corrompido, por favor baixe-o novamente</string>
 </resources>
