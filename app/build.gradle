@@ -9,8 +9,8 @@ android {
         applicationId "com.ketanolab.nusimi"
         minSdkVersion 21
         targetSdkVersion 31
-        versionCode 5
-        versionName "1.0.0"
+        versionCode 6
+        versionName "1.0.1"
     }
 
     buildTypes {

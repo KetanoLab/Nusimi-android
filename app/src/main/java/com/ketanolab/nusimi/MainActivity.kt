@@ -23,7 +23,6 @@ import androidx.appcompat.app.ActionBar
 import com.ketanolab.nusimi.util.Constants
 import com.ketanolab.nusimi.util.Dictionaries
 import com.ketanolab.nusimi.util.Util
-import java.util.ArrayList
 
 class MainActivity : BaseActivity(), OnItemClickListener, ActionBar.OnNavigationListener {
     // Paths dictionaries
@@ -71,7 +70,10 @@ class MainActivity : BaseActivity(), OnItemClickListener, ActionBar.OnNavigation
                 count: Int
             ) {
                 if (s.toString().length > 0) {
-                    WordsSimpleCursorAdapter!!.filter.filter(s.toString())
+
+                    WordsSimpleCursorAdapter?.let {
+                        WordsSimpleCursorAdapter!!.filter!!.filter(s.toString())
+                    }
                 }
             }
 
