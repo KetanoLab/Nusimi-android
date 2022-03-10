@@ -1,0 +1,60 @@
+NuSimi  originalmente Simidic es el primer diccionario electrónico libre para aparatos móviles de Android. La app fue creada para mantener la vigencia de las lenguas nativas gracias a celulares y fomentar el aprendizaje y los usos literarios de estas lenguas. Incluye 30 diccionarios de 11 lenguas nativas. 
+
+Para estudiantes, viajeros y el público en general, NuSimi es una herramienta perfecta, que no necesita conexión a Internet para funcionar. ¡Descárguelo en su celular y llévelo a cualquier parte donde lo pueda necesitar!
+
+AYMARA:
+• F. Layme (2011) Diccionario Bilingüe: Aymara-Castellano, 5a ed.
+• S. Callo, Diccionario Aymara-Castellano y Castellano-Aymara “KAMISARAKI”, 2a ed.
+• UMSATIC, Glosario de nuevos términos aimaras.
+• L. Bertonio (1612) Vocabulario de la Lengua Aymara.
+• Min. Edu. Perú (2005) Yatiqirinaka Aru Pirwa, Qullawa Aymara Aru. 
+• ILCNA (2021) Aru Pirwa Aymara.
+AYMARA-QUECHUA-GUARANÍ:
+• Min.Edu.Bolivia (2004) ARUSIMIÑEE: castellano, aymara, guaraní, qhichwa.
+GUARANÍ:
+• Comité HABLE Guaraní (1996) Rɨru Ñaneñee, 2a ed. 
+• Ortiz y Caurey (2011) Diccionario etimológico y etnográfico.
+MAPUCHE:
+• Mapuche Wixaleyiñ (2013) Vocabulario Mapuche-Castellano.
+MOCHÓ (MAYA):
+• A. Guzmán (2004) Manual Mochó.
+MOJEÑO IGNACIANO:
+• ILC “Salvador Chappy Muibar” (2021) Diccionario Mojeño Ignaciano.
+MOJEÑO TRINITARIO:
+• ILC “José Santos Noco Guaji” (2021) Taechirawkoriono Vechjiriiwo Trinranono.
+MOSETÉN:
+• OPIM, UMSS y PROEIB Andes (2011) Kirjka pheyakdye’ tïmsi’ tsinsi’khan kastellanokhan.
+MOVIMA:
+• Edu. Intercultural Bilingüe-Movima (2007) Diccionario Movima.
+QUECHUA:
+• AMLQ (2005) Qheswa – Español – Qheswa: Simi Taqe, 2a ed. 
+• T. Laime et al. (2007) Iskay simipi yuyayk’ancha, 2a ed.
+• D. González Holguín (1608) Vocabvlario de la Lengva General de todo Perv.
+• R. Cerrón-Palomino (1994) Quechua Sureño: Diccionario Unificado.
+• AMLQ Apurímac (2007) Apurimaqpaq Runasimi Taqe.
+• Min.Edu.Perú (2005) Yachakuqkunapaq Simi Qullqa, Qusqu Qullaw, Chichwa Simipi.
+• Min.Edu.Perú (2005) Yachakuqkunapa Simi Qullqa, Ayakuchu Chanka, Qichwa Simipi.
+• Min.Edu.Perú (2005) Yachakuqkunapa Shimi Qullqa, Anqash Qichwa Shimichaw.
+• Herrero y Sánchez (1983) Diccionario quechua cochabambino contemporáneo.
+• ILCNQ (2018) Qhichwa simipirwa: Diccionario de la Nación Quechua.
+QUECHUA-AYMARA:
+• Franciscanos y Min.Edu.Perú (1905/1998) Diccionario Políglota Incaico: Cuzco, Ayacucho, Junín, Ancash y Aymará.
+TAKANA:
+• CIPTA, UMSS y PROEIB Andes (2011) Mimi butsepi Takana-Kastillanu, Kastillanu-Takana.
+TSIMANE’ (Chimané):
+• Edu. Intercultural Bilingüe-Tsimane’ (2007) Diccionario Tsimane’.
+URU:
+• K. Hannß (2013) Vocabulario Uru (Uchumataqu).
+
+NuSimi significa “mi lengua” (de “nu” (mi) en mojeño/arawak y “simi” (lengua) en quechua) porque la lengua que hablamos es esencial para nuestra identidad y cultura y no debemos ser alienados de nuestras lenguas nativas por la tecnología moderna. Si Ud. conoce otros diccionarios que podamos incluir en NuSimi, por favor contáctenos. 
+
+"Nu" de mojeño/arawak es pronunciado como la palabra "gnu" en inglés y compartimos los principios de software libre del Proyecto GNU. "Nu" también es pronunciado como "new" en inglés, y NuSimi es una nueva versión de nuestra app Simidic creada en 2011. Hemos cambiado su código de Java a Kotlin y funciona en Android 5-12. 
+
+NuSimi tiene una licencia abierta GPL 3.0 y su código está en https://github.com/KetanoLab para que se pueda mejorarlo y adaptarlo a sus necesidades. Incluye Simidic Builder para importar más diccionarios en formato StarDict. Es fruto de una colaboración entre KetanoLab (www.ketanolab.com) y el Instituto de Lenguas y Literaturas Andinas-Amazonicas (ILLA).
+
+Características:
+* Búsquedas interactivas mientras se escribe la palabra
+* Almacena tus palabras favoritas para referencia rápida
+* Utilización de letras regulares para la búsqueda de letras con marcas diacríticas, como ä y ñ 
+* Despliegue rápido de resultados
+* Descarga de diccionarios en línea y consultas fuera de línea.
