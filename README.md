@@ -9,9 +9,7 @@
 ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 The project contains:
 
--SimiDic Builder.- a java cross platafrom app to import diccionaries from startdict or goldendict
 -Nusimi app for Android.-
--SimiDic app for iOS.-
 
 
 
