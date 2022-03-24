@@ -9,10 +9,18 @@ android {
         applicationId "com.ketanolab.nusimi"
         minSdkVersion 21
         targetSdkVersion 31
-        versionCode 6
-        versionName "1.0.0.1"
+        versionCode 7
+        versionName "1.0.0.2"
     }
-
+    bundle {
+        language {
+            // Specifies that the app bundle should not support
+            // configuration APKs for language resources. These
+            // resources are instead packaged with each base and
+            // dynamic feature APK.
+            enableSplit = false
+        }
+    }
     buildTypes {
         release {
             minifyEnabled false
